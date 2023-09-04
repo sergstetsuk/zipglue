@@ -11,7 +11,7 @@ Makefile.in
 
 # http://www.gnu.org/software/autoconf
 
-autom4te.cache
+autom4te.cache/
 /autoscan.log
 /autoscan-*.log
 /aclocal.m4
@@ -51,6 +51,9 @@ m4/lt~obsolete.m4
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
+
+# Build dir
+build/
 
 # Prerequisites
 *.d
